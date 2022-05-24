@@ -1,6 +1,6 @@
 
-#include "esp_http_server.h"
-#include "esp_timer.h"
+#include "esp_http_server.h"//provides an abilty to run web server on esp
+#include "esp_timer.h"// provides timer
 #include "esp_camera.h"
 #include "img_converters.h"
 #include "camera_index.h"
@@ -10,7 +10,7 @@
 #include "fd_forward.h"
 #include "fr_forward.h"
 
-#define ENROLL_CONFIRM_TIMES 5
+#define ENROLL_CONFIRM_TIMES 5// defining global variable
 #define FACE_ID_SAVE_NUMBER 7
 
 #define FACE_COLOR_WHITE  0x00FFFFFF
